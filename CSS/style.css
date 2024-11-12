@@ -1,0 +1,30 @@
+.breadcrump > li {
+    display: inline;
+    color: blue;
+}
+
+.breadcrump li+li::before {
+    padding: 10px;
+    content: ">";
+}
+
+.breadcrump a {
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.breadcrump a:hover {
+    color: yellow;
+}
+
+.head {
+    background-color: #292929;
+    display: flex;
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logo {
+    height: 70px;
+    
+}
