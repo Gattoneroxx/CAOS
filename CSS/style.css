@@ -29,6 +29,10 @@ p {
     line-height: 1.5;
 }
 
+.nota1 {
+    font-size: 14px;
+}
+
 .breadcrump > li {
     display: inline;
     color: blue;
@@ -68,4 +72,52 @@ p {
     max-width: 1000px;
     margin: 0 auto;
     padding: 10px 20px;
+}
+
+.contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.contacto a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.imgInsta, .imgfacebk {
+    height: 250px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+
+.imgInsta:hover, .imgfacebk:hover {
+    transform: scale(1.1);
+}
+
+.ubi {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.ubi a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+    
+.img-maps {
+    height: 300px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.img-maps:hover {
+    transform: scale(1.1);
 }
