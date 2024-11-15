@@ -8,12 +8,15 @@ h1 {
     font-size: 32px;
     font-family: Impact, Haettenschweiler, 'Franklin Gothic Medium', sans-serif;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 h2 {
     font-size: 28px;
     font-family: Impact, Haettenschweiler, 'Franklin Gothic Medium', sans-serif;
     text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
 }
 
 h3 {
@@ -27,6 +30,11 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     line-height: 1.5;
+    margin-top: 10px;
+}
+
+.caos {
+    background-color: blue;
 }
 
 .nota1 {
@@ -48,6 +56,10 @@ p {
     margin-right: 15px;
 }
 
+.breadcrump a:visited {
+    color: blue;
+}
+
 .breadcrump a:hover {
     color: yellow;
 }
@@ -61,6 +73,15 @@ p {
 
 .logo {
     height: 70px;
+}
+
+.presentacion, .instalaciones {
+    margin: auto;
+}
+
+.instalaciones {
+    position: relative;
+    top: -20px;
 }
 
 .calendario {
@@ -94,7 +115,6 @@ p {
     transition: transform 0.3s ease;
 }
 
-
 .imgInsta:hover, .imgfacebk:hover {
     transform: scale(1.1);
 }
@@ -120,6 +140,13 @@ p {
 
 .img-maps:hover {
     transform: scale(1.1);
+}
+
+.contacto h1, .ubi h1, .contacto h1, .calendario h1, .campeonato h1 {
+    text-decoration: underline;
+}
+.campeonato h3 {
+    border: 2px dashed blue;
 }
 
 .pistas {
@@ -185,8 +212,18 @@ p {
     width: 80%;
     max-width: 350px;
     height: 100%;
-    max-height: 250px;
+    max-height: 200px;
     margin: 5px;
+    transition: transform 0.3 ease;
+}
+
+.campeonato .brm img:hover,
+.campeonato .gt img:hover,
+.campeonato .grupoc img:hover,
+.campeonato .lmp img:hover,
+.campeonato .clasicos img:hover,
+.campeonato .f1 img:hover {
+    transform: scale(1.3);
 }
 
 .campeonato div img {
