@@ -262,6 +262,11 @@ p {
 
     .breadcrumb a {
         color: white;
+        text-decoration: none;
+    }
+
+    .breadcrumb a:hover {
+        color: white;
     }
 
     .breadcrumb ul {
