@@ -41,26 +41,26 @@ p {
     font-size: 14px;
 }
 
-.breadcrump > li {
+.breadcrumb > li {
     display: inline;
     color: blue;
 }
 
-.breadcrump li+li::before {
+.breadcrumb li+li::before {
     padding: 10px;
     content: ">";
 }
 
-.breadcrump a {
+.breadcrumb a {
     text-decoration: none;
     margin-right: 15px;
 }
 
-.breadcrump a:visited {
+.breadcrumb a:visited {
     color: blue;
 }
 
-.breadcrump a:hover {
+.breadcrumb a:hover {
     color: yellow;
 }
 
@@ -250,17 +250,21 @@ p {
     }
 
     .logo{
-        width: 150px;
+        width: 160px;
         height: auto;
     }
 
-    .breadcrump {
-        font-size: 12px;
+    .breadcrumb {
+        font-size: 14px;
         padding: 5px;
-
+        color: white;
     }
 
-    .breadcrump ul {
+    .breadcrumb a {
+        color: white;
+    }
+
+    .breadcrumb ul {
         justify-content: space-between;
     }
 
